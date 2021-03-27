@@ -1,0 +1,132 @@
+.main-content{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+.slider{
+    width: 70%;
+    position: absolute;
+    left: -20rem;
+}
+
+.top-row{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 5rem;
+}
+
+.top-row img{
+    border-radius: 8%;
+    margin-left: 0.5rem;
+}
+
+.bottom-row{
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 10rem;
+}
+
+.bottom-images{
+    display: block;
+    width: 100%;
+}
+
+.buttons{
+    margin-right: 5rem;
+}
+
+.arrow-left{
+    background-image: url("../assets/arrow-gray-left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-right{
+    background-image: url("../assets/arrow-gray-right.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-left:hover{
+    background-image: url("../assets/arrow-blue-left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-right:hover{
+    background-image: url("../assets/arrow-blue-right.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.buttons div{
+    padding: 1.3rem;
+    margin-top: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 8%;
+}
+
+.buttons div:hover{
+    border: 1px solid #3f6a98;
+}
+
+.bottom-row img{
+    border-radius: 8%;
+    margin-left: 0.5rem;
+}
+
+.text-buttons{
+    width: 30%;
+    font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
+    position: absolute;
+    right: 5rem;
+    padding: 5rem;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.text-buttons:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.text{
+    margin-right: 2rem;
+}
+
+.text p{
+    color: gray;
+}
+
+.text h1{
+    color:#3f6a98;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #134880;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 4rem;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between
+}
+
+.icon{
+    background-color: black;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.logo{
+    margin-left: 1rem;
+}
+  
+  
